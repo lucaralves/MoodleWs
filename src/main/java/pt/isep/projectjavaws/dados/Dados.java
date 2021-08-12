@@ -269,8 +269,8 @@ public class Dados {
 
         Data data = new Data();
         String jdbcUrl = "jdbc:mysql://localhost:3306/projectjavaws";
-        String username = "root";
-        String password = "21?luc_san!";
+        String username = "";
+        String password = "";
 
         try {
             FileOutputStream file = new FileOutputStream("persistencia.bin");
@@ -359,8 +359,8 @@ public class Dados {
     public static void lerEstadoMariaDb() {
 
         String jdbcUrl = "jdbc:mysql://localhost:3306/projectjavaws";
-        String username = "root";
-        String password = "21?luc_san!";
+        String username = "";
+        String password = "";
 
         try {
             Class.forName("org.mariadb.jdbc.Driver").newInstance();
